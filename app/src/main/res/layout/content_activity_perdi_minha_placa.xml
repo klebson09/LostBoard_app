@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.pdm.klebson.lostboard.Activity_perdi_minha_placa"
+    tools:showIn="@layout/activity_activity_perdi_minha_placa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/title_activity_activity_perdi_minha_placa"
+        android:id="@+id/textView_instrucao_perdi_minha_placa"
+        android:textSize="21dp"
+        android:layout_below="@+id/textView_cadastroPerdiiUmaPlaca"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_instrução_perdi_minha_placa"
+        android:id="@+id/textView2"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView_instrucao_perdi_minha_placa"
+        android:layout_alignRight="@+id/button_cancelarEncontreiUmaPlaca"
+        android:layout_alignEnd="@+id/button_cancelarEncontreiUmaPlaca" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText_nome"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:hint="Nome" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText_telefone"
+        android:layout_below="@+id/editText_nome"
+        android:layout_centerHorizontal="true"
+        android:hint="Telefone" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_placa"
+        android:layout_below="@+id/editText_telefone"
+        android:layout_alignRight="@+id/editText_telefone"
+        android:layout_alignEnd="@+id/editText_telefone"
+        android:layout_alignLeft="@+id/editText_telefone"
+        android:layout_alignStart="@+id/editText_telefone"
+        android:hint="Placa Encontrada" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_cidadeDaPlaca"
+        android:layout_below="@+id/editText_placa"
+        android:layout_alignRight="@+id/editText_placa"
+        android:layout_alignEnd="@+id/editText_placa"
+        android:layout_alignLeft="@+id/editText_placa"
+        android:layout_alignStart="@+id/editText_placa"
+        android:hint="Cidade Da Placa" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText_dataDaPerda"
+        android:layout_below="@+id/editText_cidadeDaPlaca"
+        android:layout_centerHorizontal="true"
+        android:hint="Data Da Perda" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/editText_localDaPerda"
+        android:layout_below="@+id/editText_dataDaPerda"
+        android:layout_centerHorizontal="true"
+        android:hint="Local Da Perda" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText_observação"
+        android:layout_below="@+id/editText_localDaPerda"
+        android:layout_alignLeft="@+id/editText_localDaPerda"
+        android:layout_alignStart="@+id/editText_localDaPerda"
+        android:hint="Observação" />
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:text="@string/action_cadastrar"
+        android:id="@+id/button_cadastrarPerdiMinhaPlaca"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_alignTop="@+id/button_cancelarEncontreiUmaPlaca"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:text="@string/action_cancelar"
+        android:id="@+id/button_cancelarEncontreiUmaPlaca"
+        android:layout_marginBottom="38dp"
+        android:onClick="onClick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_cadastro"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView_cadastroPerdiiUmaPlaca"
+        android:textSize="21dp" />
+
+
+</RelativeLayout>

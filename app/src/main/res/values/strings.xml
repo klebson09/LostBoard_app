@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Lost Board</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_perdi_minha_placa">Perdi Minha Placa</string>
+    <string name="action_encontrei_uma_placa">Encontrei Uma Placa</string>
+    <string name="action_lista_de_placa">Listar Placas</string>
+    <string name="action_informativo">Informação</string>
+
+    <string name="title_activity_activity_perdi_minha_placa">Perdi Minha Placa</string>
+    <string name="text_instrução_perdi_minha_placa">Insira os dados para que possamos lhe auxiliar na procura de sua placa perdida.</string>
+    <string name="text_nome">Nome:</string>
+    <string name="text_telefone">Telefone:</string>
+    <string name="text_placa_perdida_encontrada">Placa:</string>
+    <string name="text_cidade_placa">Cidade Da Placa:</string>
+    <string name="text_data_da_perda">Data Da Perda</string>
+    <string name="text_local_da_perda">Local Da Perda:</string>
+    <string name="text_observacao">Observação:</string>
+    <string name="action_cadastrar">Cadastrar</string>
+    <string name="action_cancelar">Cancelar</string>
+    <string name="title_activity_activity_encontrei_uma_placa">Cadastro Encontrei Uma Placa</string>
+
+    <string name="title_activity_cadastro">Cadastro</string>
+    <string name="title_activity_encontrei_uma_placa">Encontrei Uma Placa</string>
+    <string name="text_instrução_encontrei_uma_placa">Insira os dados para que a placa perdida estaja disponível para o done encontrar-la.</string>
+    <string name="title_activity_activity__lista_de_placa">Placas Encontradas</string>
+    <string name="title_activity_activity_teste_web_service">Activity_teste_web_service</string>
+    <string name="lbl_valor1">Valor 1</string>
+    <string name="lbl_valor2">Valor 2</string>
+    <string name="lbl_calcular">Calcular</string>
+    <string name="lbl_resultado">Resultado</string>
+
+
+</resources>
